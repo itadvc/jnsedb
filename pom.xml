@@ -3,7 +3,7 @@
 
 	<groupId>com.github.itadvc</groupId>
 	<artifactId>jnsedb</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<developers>
 		<developer>
 			<name>Krzysztof Andrzejczak</name>
@@ -15,7 +15,7 @@
 		It is just simple as: new JnsedbEmbeddedServer(System.getProperty("user.dir") + "\.mydb").startup().getManager("mydatabase")
 	</description>
 	<scm>
-		<connection>scm:git:https://chrisshiv@github.com/itadvc/jnsedb.git</connection>
+		<developerConnection>scm:git:https://github.com/itadvc/jnsedb.git</developerConnection>
 	</scm>
 
 	<dependencies>
