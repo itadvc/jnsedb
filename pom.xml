@@ -14,6 +14,9 @@
 		JNSEDB (Java based NoSql Embeddable Database) is simple embeddable java file based (and cached in memory) NoSql database.
 		It is just simple as: new JnsedbEmbeddedServer(System.getProperty("user.dir") + "\.mydb").startup().getManager("mydatabase")
 	</description>
+	<scm>
+		<connection>scm:git:https://chrisshiv@github.com/itadvc/jnsedb.git</connection>
+	</scm>
 
 	<dependencies>
 		<dependency>
