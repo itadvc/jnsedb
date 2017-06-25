@@ -122,3 +122,27 @@ dbServer.getConfiguration().setCacheReplacementPolicy(CacheReplacementPolicy.Lea
 // disable cache (annotation @Cache is ignored)
 dbServer.getConfiguration().disableCache();
 ```
+
+## Features
+
+* Simple to use
+* Fast
+* Persistable
+* Embeddable
+* Index is cached in memory
+* Loaded objects can be cached in memory
+* Serialization using jackson, jackson annotations are allowed (@JsonInclude, @JsonProperty etc)
+
+## Contribute
+
+* Issue Tracker: github.com/itadvc/jnsedb/issues
+* Source Code: github.com/itadvc/jnsedb
+* Tests: junit
+
+## License
+
+This project is released under the Apache license. See the bundled LICENSE file for details.
+
+## Author
+
+Krzysztof Andrzejczak
